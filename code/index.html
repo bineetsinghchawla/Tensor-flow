@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gesture Classifier</title>
+  </head>
+
+  <body>
+    <h2>Gesture Classifier: 👍 vs 👎</h2>
+    <button onclick="init()">Start Webcam</button>
+
+    <div id="webcam-container" style="margin-top:12px;"></div>
+    <div id="label-container" style="margin-top:12px; font-size:18px;"></div>
+
+    <!-- Libraries needed for Teachable Machine -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+
+    <!-- Your code -->
+    <script src="./script.js"></script>
+  </body>
+</html>
