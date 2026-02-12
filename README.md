@@ -26,6 +26,5 @@ This is ideal as a beginner-friendly computer vision + browser ML project.
 - TensorFlow.js (via Teachable Machine `tmImage`)
 - HTML + JavaScript (runs fully in the browser)
 
----
 
-## Repository Structure (recommended)
+
